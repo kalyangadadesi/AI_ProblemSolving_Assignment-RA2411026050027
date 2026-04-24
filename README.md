@@ -1,5 +1,7 @@
 # 🤖 AI Problem Solving Assignment
 
+**Registration Number:** `RA2410026050027`
+
 ![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.30+-red.svg)
 ![Machine Learning](https://img.shields.io/badge/Machine_Learning-scikit--learn-orange.svg)
