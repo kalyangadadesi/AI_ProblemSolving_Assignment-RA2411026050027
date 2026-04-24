@@ -49,12 +49,85 @@ def generate_synthetic_data():
     return df
 
 st.set_page_config(page_title="Student Performance Predictor", layout="wide", page_icon="📈")
+
+# === VIBRANT DASHBOARD CSS ===
+st.markdown("""
+<style>
+    /* Sci-Fi Dashboard Background */
+    .stApp {
+        background: radial-gradient(circle at top right, #0a0a2a, #000000);
+        color: #e0e6ed;
+        font-family: 'Inter', sans-serif;
+    }
+    
+    /* Neon Gradient Titles */
+    h1 {
+        background: -webkit-linear-gradient(45deg, #00f2fe, #4facfe, #00f2fe);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight: 900 !important;
+        text-shadow: 0px 0px 15px rgba(0, 242, 254, 0.3);
+    }
+    h2, h3 {
+        color: #4facfe !important;
+        text-shadow: 0px 0px 10px rgba(79, 172, 254, 0.2);
+    }
+    
+    /* Glowing Metrics Cards */
+    div[data-testid="metric-container"] {
+        background: rgba(0, 242, 254, 0.05);
+        border: 1px solid rgba(79, 172, 254, 0.4);
+        border-radius: 15px;
+        padding: 20px;
+        box-shadow: 0 0 20px rgba(0, 242, 254, 0.15), inset 0 0 10px rgba(0, 242, 254, 0.05);
+        transition: transform 0.3s ease;
+    }
+    div[data-testid="metric-container"]:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 5px 25px rgba(0, 242, 254, 0.3);
+    }
+    
+    /* Glowing Buttons */
+    div.stButton > button, div[data-testid="stFormSubmitButton"] > button {
+        background: linear-gradient(45deg, #4facfe, #00f2fe) !important;
+        color: #000 !important;
+        font-weight: 800 !important;
+        font-size: 1.1rem !important;
+        border: none !important;
+        border-radius: 12px !important;
+        padding: 12px 24px !important;
+        box-shadow: 0 8px 25px rgba(0, 242, 254, 0.4) !important;
+        transition: all 0.3s ease !important;
+    }
+    div.stButton > button:hover, div[data-testid="stFormSubmitButton"] > button:hover {
+        transform: translateY(-3px) !important;
+        box-shadow: 0 12px 30px rgba(0, 242, 254, 0.6) !important;
+        color: #000 !important;
+    }
+    
+    /* Input Fields */
+    div[data-testid="stNumberInput"] input {
+        border-radius: 8px !important;
+        border: 1px solid rgba(79, 172, 254, 0.5) !important;
+        background-color: rgba(10, 10, 42, 0.8) !important;
+        color: #00f2fe !important;
+        font-weight: bold !important;
+    }
+    div[data-testid="stNumberInput"] input:focus {
+        box-shadow: 0 0 15px rgba(0, 242, 254, 0.5) !important;
+        border-color: #00f2fe !important;
+    }
+</style>
+""", unsafe_allow_html=True)
+
 st.title("📈 Student Performance Predictor (ML)")
 
 st.markdown("""
-This app predicts student exam scores based on 4 features: 
-`Hours Studied`, `Attendance Rate`, `Previous Score`, and `Assignments Completed`.
-""")
+<div style="padding: 15px; border-left: 5px solid #00f2fe; background: rgba(0,242,254,0.1); border-radius: 0 10px 10px 0; margin-bottom: 2rem;">
+This advanced AI dashboard predicts student exam scores based on 4 features: 
+<b style="color:#00f2fe;">Hours Studied</b>, <b style="color:#00f2fe;">Attendance Rate</b>, <b style="color:#00f2fe;">Previous Score</b>, and <b style="color:#00f2fe;">Assignments Completed</b>.
+</div>
+""", unsafe_allow_html=True)
 
 # --- 1. Data Loading & Preprocessing ---
 st.header("1. Dataset")
