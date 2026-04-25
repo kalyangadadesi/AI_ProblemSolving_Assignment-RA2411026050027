@@ -12,8 +12,8 @@ This repository contains two **completely independent** web applications built f
 
 | Project | Live Demo |
 |---|---|
-| 🧩 Sudoku Solver (CSP) | [**Click Here to Try Live →**](https://kalyangadadesi.github.io/AI_ProblemSolving_Assignment/Sudoku_Solver/) |
-| 📈 Student Predictor (ML) | [**Click Here to Try Live →**](https://kalyangadadesi.github.io/AI_ProblemSolving_Assignment/Student_Predictor/) |
+| 🧩 Sudoku Solver (CSP) | [**Click Here to Try Live →**](https://kalyangadadesi.github.io/AI_ProblemSolving_Assignment-RA2411026050027/Sudoku_Solver/) |
+| 📈 Student Predictor (ML) | [**Click Here to Try Live →**](https://kalyangadadesi.github.io/AI_ProblemSolving_Assignment-RA2411026050027/Student_Predictor/) |
 
 ---
 
@@ -33,7 +33,7 @@ A completely self-contained web app that uses the **Constraint Satisfaction Prob
 ![Sudoku Output](assets/sudoku_output.png)
 
 ### 🌐 Live Demo
-👉 **[Try Sudoku Solver Live](https://kalyangadadesi.github.io/AI_ProblemSolving_Assignment/Sudoku_Solver/)**
+👉 **[Try Sudoku Solver Live](https://kalyangadadesi.github.io/AI_ProblemSolving_Assignment-RA2411026050027/Sudoku_Solver/)**
 
 ### How to Run Locally
 ```
@@ -59,7 +59,7 @@ A purely client-side Machine Learning dashboard. Upon loading the page, it gener
 ![Predictor Output](assets/predictor_output.png)
 
 ### 🌐 Live Demo
-👉 **[Try Student Predictor Live](https://kalyangadadesi.github.io/AI_ProblemSolving_Assignment/Student_Predictor/)**
+👉 **[Try Student Predictor Live](https://kalyangadadesi.github.io/AI_ProblemSolving_Assignment-RA2411026050027/Student_Predictor/)**
 
 ### How to Run Locally
 ```
